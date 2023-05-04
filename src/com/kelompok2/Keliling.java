@@ -1,21 +1,18 @@
-package com.kelompok2;
+package UTS;
+
+import java.util.Scanner;
 
 public class Keliling extends Luas {
-    private double sisi1;
-    private double sisi2;
-    private double sisi3;
+    public static void kelilingSegitiga() {
+        Scanner input = new Scanner(System.in);
 
-    public void setSisi1(double sisi1){
-        this.sisi1 = sisi1;
+        double[] keliling = new double[3];
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Masukkan Sisi ke-" + (i + 1) + " : ");
+            double sisi = input.nextDouble();
+            keliling[i] = sisi;
+        }
+        System.out.println("Hasil");
+        System.out.println("Keliling Segitiga Adalah : " + (keliling[0] * keliling[1] * keliling[2]));//k.getKeliling());
     }
-    public void setSisi2(double sisi2){
-        this.sisi2 = sisi2;
-    }
-    public void setSisi3(double sisi3){
-        this.sisi3 = sisi3;
-    }
-    public double getKeliling(){
-        return (this.sisi1 + this.sisi2 + this.sisi3);
-    }
-
 }
