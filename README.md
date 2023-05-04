@@ -15,7 +15,7 @@
 <br>
 
 ### Cara Penggunaan : <br>
-1. Login dengan input username dan password
+1. Login dengan input username "admin" dan password "admin"
 2. Pilih menu yang diinginkan
 3. Input hal-hal yang diperlukan, seperti luas membutuhkan alas dan tinggi, keliling membutuhkan sisi
 4. Ketik ' y ' untuk mengulang menu, dan ketik ' n ' untuk keluar menu
